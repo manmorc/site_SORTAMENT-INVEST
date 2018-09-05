@@ -1,0 +1,30 @@
+footer {
+  background-color: black;
+  color: white;
+  width:960px;
+  height:200px;
+  margin:0 auto;
+  position: relative;
+  .social {
+    padding-top: 35px;
+    margin: 0 auto;
+    width: 210px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    button {
+      height:45px;
+      width:45px;
+      border-radius: 50%;
+      border: none;
+      background-color: #E5E5E5;
+    }
+  }
+  .copy {
+    margin-top: 45px;
+    text-align: center;
+    span {
+      color: white;
+    }
+  }
+}

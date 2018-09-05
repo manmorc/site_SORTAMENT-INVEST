@@ -1,0 +1,31 @@
+/*
+* css reset
+*/
+@import "../../bower_components/normalize.css/normalize.css";
+@import "partials/reset";
+
+/*
+* Mixins
+*/
+
+@import 'partials/mixins/delimiter';
+@import 'partials/mixins/a';
+
+/*
+* cite main
+*/
+
+@import "partials/app";
+@import "partials/fonts";
+@import "partials/_body";
+@import "partials/_footer";
+@import "partials/_header";
+@import "partials/_section";
+
+/*
+* html sections
+*/
+
+@import "partials/sections/section1";
+@import "partials/sections/howTo";
+@import "partials/sections/types";

@@ -1,0 +1,32 @@
+.howTo {
+  height: 600px;
+  .steps {
+    width:100%;
+    height: 300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:stretch;
+    .step {
+      width:300px;
+      height: 100%;
+      .circle {
+        font-size:30px;
+        color:white;
+        line-height: 100px;
+        height: 100px;
+        width: 100px;
+        background-color: #F2994A;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        margin: 0 auto 30px;
+      }
+      .title {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.types {
+  height: 600px;
+  .kinds {
+    width:100%;
+    height: 300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:stretch;
+    .kind {
+      width:300px;
+      height: 100%;
+      .title {
+        font-weight: bold;
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.section1 {
+  height: 600px;
+  background: url("/img/building.png");
+  background-size: cover;
+  box-shadow:0 0 0 400px rgba(0, 0, 0, 0.5) inset;
+
+  color:white;
+  text-align: center;
+  &:before {
+    background: url("/img/rectangle.png");
+  }
+  .title {
+    padding-top: 165px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 83px;
+    display: block;
+    width: 800px;
+    margin:0 auto;
+  }
+  .partTitle {
+    padding-top: 30px;
+    display: block;
+    margin:0 auto;
+    font-size: 25px;
+    line-height: 30px;
+    width: 600px;
+    font-family: PT Sans, serif;
+  }
+}
