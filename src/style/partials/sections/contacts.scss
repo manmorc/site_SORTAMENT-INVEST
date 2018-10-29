@@ -4,17 +4,19 @@
 
   .contact-block {
     width: 300px;
-    padding: 40px 45px;
+    padding: 20px 45px;
 
     .head-contacts {
-      font-size: 16px;
-      font-weight: 700;
+      font-size: 24px;
       text-align: left;
+      line-height: 30px;
+      font-weight: 700;
       margin-bottom: 20px;
     }
 
     .desc {
       text-align: left;
+      font-size: 18px;
       line-height: 1.5;
       div {
         line-height: 1.5;
