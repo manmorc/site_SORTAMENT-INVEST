@@ -1,0 +1,32 @@
+.about-us {
+  .who-we-are {
+
+    margin-bottom: 30px;
+    img {
+      vertical-align: middle;
+    }
+
+    span {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 50px;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+  }
+
+  .company-desc {
+    display: flex;
+    flex-direction: row;
+    height: 240px;
+    margin-bottom: 18px;
+
+    .block {
+      width: 50%;
+      text-align: left;
+      padding: 10px;
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+}

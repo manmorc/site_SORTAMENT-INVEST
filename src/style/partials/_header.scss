@@ -20,14 +20,12 @@ header {
       float: left;
     }
     .company {
-      top: 50%;
-      display: block;
-      transform: translateY(-50%);
-      position: relative;
-      margin-left: 85px;
+
       font-size: 18px;
       font-weight: bold;
-      line-height: 21px;
+      line-height: 67px;
+      display: inline-block;
+      margin-left: 10px;
     }
   }
 
@@ -41,7 +39,8 @@ header {
     position: relative;
     ul {
       height: 100%;
-      width: 87%;
+      //width: 87%;
+      width: 50%;
       margin: 0 auto;
       display: -ms-flexbox;
       display: flex;
