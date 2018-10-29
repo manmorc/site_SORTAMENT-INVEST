@@ -1,0 +1,80 @@
+.offer {
+  height: 800px;
+  .advantages-kinds {
+    width: 100%;
+    height: 335px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    .advantage-block {
+      width: 260px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .download-offer {
+        width: 135px;
+        height: 40px;
+        background: #000;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .advantage-image-block {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #F2F2F2;
+        background-size: 70px;
+        margin-bottom: 30px;
+
+        .image {
+          width: 100%;
+          height: 100%;
+          &.clock {
+            background: url("/img/clock.png") center center no-repeat;
+          }
+          &.money {
+            background: url("/img/money.png") center center no-repeat;
+          }
+          &.forklift {
+            background: url("/img/forklift.png") center center no-repeat;
+          }
+          &.moneybox {
+            background: url("/img/moneybox.png") center center no-repeat;
+          }
+          &.flag {
+            background: url("/img/flag.png") center center no-repeat;
+          }
+          &.globe {
+            background: url("/img/globe.png") center center no-repeat;
+          }
+
+          &.pdf {
+            background: url("/img/pdf-img.png") center center no-repeat;
+          }
+        }
+      }
+
+      .advantage-desc {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 45px;
+        width: 65%;
+        line-height: 1.2;
+
+        &.map-block {
+          width: 54%;
+        }
+      }
+    }
+  }
+}
